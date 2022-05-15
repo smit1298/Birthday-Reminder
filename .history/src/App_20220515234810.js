@@ -7,9 +7,9 @@ function App() {
   return (
     <main>
       <section className="container">
-        <h3>{people.length} birthdays today</h3>
+        <h3>{} birthdays today</h3>
         <List people={people} />
-        <button onClick={() => setPeople([])}>clear all</button>
+        <button onClick={() => console.log('you cleared me')}>clear all</button>
       </section>
     </main>
   );

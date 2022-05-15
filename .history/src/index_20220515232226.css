@@ -186,6 +186,6 @@ main {
   padding: 0.5rem 0;
   letter-spacing: var(--spacing);
   border-radius: var(--radius);
-  outline: 1px solid rgba(203, 211, 223, 0.8);
+  outline: 1px solid rgba(170, 191, 225, 0.8);
   cursor: pointer;
 }
